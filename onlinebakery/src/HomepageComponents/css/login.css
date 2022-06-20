@@ -1,0 +1,19 @@
+.icon-img{
+    width: 150px;
+    height: 150px;
+}
+.pic{
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading{
+    font-family: fantasy;
+    color: brown;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+.reset{
+    color: navy;
+}

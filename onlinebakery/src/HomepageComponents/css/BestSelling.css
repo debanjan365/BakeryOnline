@@ -1,0 +1,27 @@
+
+
+.headText {
+    font-family:fantasy;
+    font-size: 1.2em;
+    color: brown;
+}
+h1{
+   
+    text-align: center;
+    font-size: 3em;
+   
+}
+.card-link{
+ 
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: 0.1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.modal-header{
+    background-color:brown;
+    color: #fff;  
+}
+
