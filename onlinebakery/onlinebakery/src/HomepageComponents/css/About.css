@@ -1,0 +1,44 @@
+.up{
+    background-color: brown;
+    padding-top: 8rem;
+    padding-bottom: 15px;
+}
+
+.head{
+    font-family:fantasy;
+    color: rgb(245, 242, 237);
+    font-size: 3.5em;
+    padding: 0px 15px;
+    
+}
+
+.name{
+    font-family:fantasy;
+    font-size: 1.5em;
+    color: rgb(4, 4, 112);
+}
+
+.text{
+    text-align: center;
+    color: wheat;
+    font-size: 1em;
+}
+.Image{
+    height: 200px;
+    width: 100% ;
+}
+.Image:hover{
+    height: 250px;
+    width: 250px ;  
+   transition: 1s;
+}
+.ourTeam{
+    margin: 20px 0px;
+    font-size: 3.5em;
+    font-family: cursive;
+}
+.highlight{
+    font-size: 1.2em;
+    color: brown;
+    font-weight:700;
+}

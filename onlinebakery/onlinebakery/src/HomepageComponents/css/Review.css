@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+   
+}
+
+.rev{
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: 0.1rem solid rgba(110, 110, 110, 0.719);
+    border-radius: 5rem;
+    flex: 1 1 30rem;
+    background: rgb(175, 191, 199);
+    margin: 2rem 0;
+    color:aliceblue;
+}
+.h2{
+    font-family: fantasy;
+    color: aqua;
+    font-size: 2.5em;
+}
+
+.stars{
+    font-size: 2rem;
+    color: var(--red);
+    padding: .5rem 0;
+}
+.stars:hover{
+    font-size: 2.5rem;
+    color: var(--red);
+    padding: .8rem 0;
+}
+.rev:hover{
+    padding: 1.2rem;
+    transition: 1s;
+}

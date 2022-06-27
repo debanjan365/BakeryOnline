@@ -1,0 +1,46 @@
+
+.container{
+    text-align: center;
+}
+h3{
+   
+    text-align: center;
+    font-size: 2em;
+    font-style:oblique;
+    color:brown 
+   
+}
+.Smile:hover{
+    color:darkorange;
+    transform: rotate(360deg);
+    transform-origin: 10% 30%;
+     transition: 2s;
+}
+  .Car:hover{
+    
+    color:darkorange;
+    
+    background-color: transparent;
+    position: relative;
+    animation-name: car;
+    animation-duration: 2s;
+    transition: 2s;
+    
+  }
+  @keyframes car {
+  
+    100% { background-color: transparent;left:15%; top:0px;}
+  }
+  
+  .CardSwipe:hover{
+    color:darkorange;
+    transform: rotate(15deg);
+    transform-origin: 10% 30%;
+     transition: 2s;
+  }
+  .Bread:hover{
+     color:darkorange;
+    transform: rotateX(35deg);
+    transform-origin: 20% 50%;
+     transition: 2s;
+  }

@@ -1,0 +1,7 @@
+.gallery:hover{
+    height: 750px;
+    width: 100%; 
+    transform: rotate(30deg);
+  transform-origin: 10% 30%;
+   transition: 3s;
+}

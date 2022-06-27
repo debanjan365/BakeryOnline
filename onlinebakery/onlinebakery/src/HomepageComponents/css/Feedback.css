@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+h1{
+   
+  text-align: center;
+  font-size: 3em;
+  color: brown;
+  font-family:fantasy;
+ 
+}
+
+.app {
+  
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: transparent;
+}
+
+.form{
+  border: solid ;
+ max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px solid grey;
+  border-radius: 35px;
+  border-color: rgb(145, 96, 76);
+}
+input[type="text"]{
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  text-align: center;
+  color:black;
+  border-color: rgb(145, 96, 76);
+  min-width: 90%;
+  margin: 5px;
+  background-color:lavender;
+}
+
+.input-feed{
+  height: 40px;
+  padding: 18px;
+  border-radius: 15px;
+
+}
+
+.button {
+  color: white;
+  background-color: rgb(128, 4, 4);
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 200px;
+}
+
+.button:hover {
+ background-color:rgb(156, 63, 37);
+ color: black;
+}
